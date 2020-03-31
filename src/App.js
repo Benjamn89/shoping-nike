@@ -8,7 +8,11 @@ const App = props => {
   return (
     <BrowserRouter>
       <Route exact path="/" component={WelcomePage} />
-      <Route exact path="/test" component={myApp} />
+      <Route
+        exact
+        path="https://shoping-with-react.netlify.com/test"
+        component={myApp}
+      />
     </BrowserRouter>
   );
 };
