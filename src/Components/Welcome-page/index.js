@@ -12,7 +12,9 @@ class WelcomePage extends Component {
   moveToReact = () => {
     $(".welcome-sec-h1").addClass("rollOut");
     $(".welcome-first-h1").addClass("rollOut");
-    $(".welcome-div").addClass("slideOutLeft");
+    setTimeout(() => {
+      $(".welcome-div").css("transform", "translateX(-100%)");
+    }, 1300);
     setTimeout(() => {
       window.location.href = "/test";
     }, 2100);
@@ -22,7 +24,6 @@ class WelcomePage extends Component {
     setTimeout(() => {
       $(".welcome-sec-h1").css("animation-delay", "0s");
       $(".welcome-first-h1").css("animation-delay", "0.7s");
-      $(".welcome-div").css("animation-delay", "1.3s");
     }, 2000);
   }
   render() {
