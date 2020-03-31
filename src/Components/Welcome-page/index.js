@@ -14,7 +14,7 @@ class WelcomePage extends Component {
     $(".welcome-first-h1").addClass("rollOut");
     $(".welcome-div").addClass("slideOutLeft");
     setTimeout(() => {
-      window.location.href = "/test";
+      window.location.href = "/shop";
     }, 2100);
   };
 
