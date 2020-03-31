@@ -1,0 +1,20 @@
+.collection-wrapper-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 35px;
+  height: 34vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hr-closing-sec {
+  width: 100%;
+  border: solid 0.5px #d2dae2;
+}
+.powered {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #4b4b4b;
+}

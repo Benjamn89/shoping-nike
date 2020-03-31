@@ -1,0 +1,86 @@
+.wrap-item {
+  border: solid 0.5px #dfe6e9;
+  height: 320px;
+  width: 185px;
+  text-align: center;
+  margin-right: 1px;
+}
+.wrap-item img {
+  margin-top: 5px;
+  height: 40%;
+  width: 80%;
+}
+.title-item {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.price-item {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.actual-price-item {
+  color: #ff3838;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+.add-cart-item {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 90px;
+  margin: auto;
+}
+.break-row {
+  flex-basis: 100%;
+}
+.my-cart-div {
+  margin-top: 25px;
+  min-height: 300px;
+  height: auto;
+}
+.cart-title {
+  font-size: 25px;
+  letter-spacing: 3.5px;
+  padding: 10px 0 10px 20px;
+}
+.cart-price {
+  font-size: 20px;
+  padding: 0 0 20px 20px;
+}
+.cart-price span {
+  color: #ff3838;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.cart-picking-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cart-picking-inside {
+  border: solid 0.5px #dfe6e9;
+  width: 80px;
+  margin-left: 1px;
+  height: 100px;
+  text-align: center;
+}
+.cart-picking-inside img {
+  height: 65%;
+  width: 90%;
+  margin-top: 1px;
+}
+.some-bul-text {
+  font-weight: bold;
+  font-size: 50px;
+  transform: translateY(-25px);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.some-bul-text:hover {
+  color: #ff3838;
+}

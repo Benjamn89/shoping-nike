@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.welcome-div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: lighter;
+  background-color: #1e272e;
+  color: white;
+}
+.welcome-first-h1 {
+  position: absolute;
+  top: 10%;
+  opacity: 0.7;
+  animation-fill-mode: forwards;
+}
+.welcome-sec-h1 {
+  animation-delay: 0.7s;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.welcome-sec-h1:hover {
+  opacity: 1;
+}

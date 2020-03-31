@@ -1,0 +1,15 @@
+.logot-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid #d2dae2;
+  width: 80%;
+  margin: auto;
+}
+
+.logot-logo {
+  margin: 25px 0 15px 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #4b4b4b;
+}
